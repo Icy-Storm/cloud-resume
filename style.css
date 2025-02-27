@@ -4,29 +4,29 @@
 }
 
 body {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 40px auto;
     padding: 20px;
-    max-width: 800px;
-    background-color: #121212;
-    color: #FFFFFF;
+    max-width: 750px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration-color: none;
 }
 
 header {
+    background-color: lightgray;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
-}
-
-.header-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contact-info {
-    display: flex;
-    position: relative;
 }
 
 #linkedin-logo {
@@ -36,3 +36,41 @@ header {
     vertical-align: middle;
 }
 
+.professional-summary {
+    padding: 20px 10px;
+    text-align: justify;
+}
+
+.professional-summary p {
+    margin-top: 10px;
+}
+
+.skills {
+    padding: 0 10px 20px 10px;
+}
+
+.skills ul {
+    list-style-position: outside;
+    margin-left: 20px;
+    margin-top: 10px
+}
+
+.work-experience {
+    padding: 0 10px 20px 10px;
+    display:flex;
+    flex-direction: column;
+}
+
+.job-info > h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.work-experience ul {
+    list-style-position: outside;
+    margin-left: 20px;
+    text-align: left;
+    
+}
