@@ -24,7 +24,15 @@ header {
     align-items: center;
 }
 
+.contact-info {
+    display: flex;
+    position: relative;
+}
+
 #linkedin-logo {
     width: 20px;
     height: auto;
+    display: inline-block;
+    vertical-align: middle;
 }
+
